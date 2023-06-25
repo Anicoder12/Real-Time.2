@@ -1,0 +1,70 @@
+  .heading
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+  }
+  .heading_div
+  {
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  }
+ h1 
+ {
+  background-color: gray;
+  color: white;
+padding: 10px;
+margin: 0px;
+font-size: 20px !important;
+ }
+ h4
+ {
+  color: white;
+background-color: gray;
+padding: 10px;
+margin: 0px;
+bottom: 0px;
+position: fixed;
+width: 100%;
+ }
+ p 
+{
+  background-color: white;
+  color: gray;
+  padding: 10px;
+  max-width: 500px;
+  border-radius: 15px;
+}
+body
+{
+  background: url("background.jpg");
+}
+canvas
+{
+  margin-top: 150px;
+  animation-name: shadowing;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes shadowing 
+{
+from
+ {
+box-shadow: 3px 3px 50px blue;
+}
+to
+ {
+box-shadow: 3px 3px 50px lightseagreen;
+}
+}
